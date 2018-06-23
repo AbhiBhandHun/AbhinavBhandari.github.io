@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>AbhiBhandHun</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("AbhiBhandHun/Final builds/edit2.jpg");
+	
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+	.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+	position: absolute;
+	top: 308px;
+	left: 490px;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.container .btn:hover 
+	{
+    background-color: black;
+    }
+.centered 
+	{
+	position: absolute;
+	top: 718px;
+	left: 734px;
+	transform: translate(-50%, -50%);
+	width: 119px;
+	height: 60px;
+	}
+</style>
+<link href="Wynk Music (Files)/Exercise Files/css/bootstrap.css" rel="stylesheet" type="text/css">
+<script src="Wynk Music (Files)/Exercise Files/jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="Wynk Music (Files)/Exercise Files/jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+<script type="text/javascript">
+function MM_DW_effectScale(obj,method,effect,dir,originY,originX,per,size,speed)
+{
+    obj[method](effect, { direction: dir, origin: [originY, originX], percent: per, scale: size }, speed);
+}
+</script>
+</head>
+<body onclick="MM_DW_effectScale($('#frontB'),'toggle','scale','both','middle','center',0,'both',1000)">
+<img src="AbhiBhandHun/Final builds/edit2.jpg" alt="buts" usemap="#Map" style="width:100%">
+<map name="Map">
+  <area shape="rect" coords="6,8,1068,879" href="AbhiBhandHun.html" target="_top">
+</map>
+<div class="container"></div>
+<div class="centered" id="frontB"><a href="AbhiBhandHun.html"><img src="Wynk Music (Files)/Exercise Files/divide (2).png" width="60" height="60" onClick="MM_DW_effectScale($('#frontB'),'show','scale','both','middle','center',0,'both',1000)"></a></div>
+</body>
+</html>
